@@ -115,7 +115,7 @@ async function makeStatus(text){
     const status = await masto.v1.statuses.create({
         // the thing that will be posted
         status: text,
-        visibility: "private"
+        visibility: "public"
     })
 
     console.log(status.url)
