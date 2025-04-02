@@ -1,0 +1,16 @@
+{
+  "name": "ghosted",
+  "version": "1.0.0",
+  "description": "A Mastodon bot that simulates a digital boyfriend being ghosted",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=20.16.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "masto": "^6.10.3"
+  }
+}
